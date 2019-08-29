@@ -31,6 +31,7 @@
         this.$emit('handleShelf')
       },
       readBook() {
+        console.log('readBook')
         this.$emit('readBook')
       }
     }

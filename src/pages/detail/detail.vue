@@ -1,12 +1,12 @@
 <template>
     <div>
       <DetailBook :book="book" />
-      <DetailStat
-        :readers="book.readers"
-        :reader-num="book.readerNum"
-        :rank-num="book.rankNum"
-        :rank-avg="book.rankAvg"
-      />
+<!--      <DetailStat-->
+<!--        :readers="book.readers"-->
+<!--        :reader-num="book.readerNum"-->
+<!--        :rank-num="book.rankNum"-->
+<!--        :rank-avg="book.rankAvg"-->
+<!--      />-->
 <!--      <DetailRate-->
 <!--        :rate-value="book.rateValue"-->
 <!--        @onRateChange="onRateChange"-->

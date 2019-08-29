@@ -8,7 +8,7 @@
         >
           <div class="book-img-wrapper">
             <div class="book-img">
-              <ImageView src="https://www.youbaobao.xyz/book/res/img//EarthSciences/978-981-10-3713-9_CoverFigure.jpg" />
+              <ImageView :src="book.cover" />
             </div>
           </div>
           <div class="book-info-wrapper">
